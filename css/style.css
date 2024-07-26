@@ -1,7 +1,21 @@
 /* /* reset */
 
-*{
+* {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+}
+
+.conatiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#number-containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-weight: bold;
+    height: 100vh;
 }
